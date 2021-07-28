@@ -15,7 +15,6 @@ const App = () => {
   };
 
   const [data, setData] = useState([])
-  const [posts, setPosts] = useState([])
 
   const getCoinData = async () => {
     const url = "https://index-api.bitcoin.com/api/v0/history"
